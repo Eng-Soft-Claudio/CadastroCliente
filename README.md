@@ -23,12 +23,11 @@
 **Back-end:**  
 [![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)]()
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-FFD933?style=for-the-badge&logo=javascript&logoColor=white)
 
 **Front-end:**  
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-
-
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-FFD933?style=for-the-badge&logo=javascript&logoColor=white)
 
 **Linux:**    
 ![Pop!_OS](https://img.shields.io/badge/OS-Pop!_OS-7821FC?logo=linux&logoColor=white)
@@ -55,14 +54,30 @@ Este script irá configurar e iniciar tanto o back-end quanto o front-end automa
 ## 📂 Estrutura do Projeto
 ```bash
 CadastroCliente/
+│   
 ├── BackEnd/
-│   ├── app.py
-│   └── requirements.txt
+│   ├── config/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── validations/
+│   ├── .gitignore
+│   ├── index.js
+│   ├── package-lock.json
+│   └── package.json
+│   
 ├── FrontEnd/
-│   ├── src/
 │   ├── public/
-│   ├── package.json
-│   └── ...
+│   ├── src/
+│   ├── .env
+│   ├── .gitignore
+│   ├── README.md
+│   ├── package-lock.json
+│   └── package.json
+│   
 ├── node_modules/
 ├── package.json
 ├── package-lock.json
