@@ -30,7 +30,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-FFD933?style=for-the-badge&logo=javascript&logoColor=white)
 
 **Linux:**    
-![Pop!_OS](https://img.shields.io/badge/OS-Pop!_OS-7821FC?logo=linux&logoColor=white)
+![Pop!_OS](https://img.shields.io/badge/OS-Pop!_OS-7821FC?logo=linux&logoColor=white&style=for-the-badge)
+
 
 ---
 
