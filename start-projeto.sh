@@ -3,7 +3,7 @@
 echo "🔧 Iniciando Projeto de Cadastro..."
 
 # Caminho base
-BASE_DIR="/media/claudioh4x5w6l7/Desenvolvimento/ProjetoCadastro"
+BASE_DIR="/media/claudioh4x5w6l7/Desenvolvimento/CadastroCliente"
 
 # Iniciar backend
 echo "🚀 Iniciando BackEnd..."
