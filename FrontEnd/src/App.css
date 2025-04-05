@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f4f1;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container geral da aplicação */
+.App {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Cabeçalho */
+h1, h2, h3 {
+  color: #5a3e36; /* Mocha Mousse - PANTONE 17-1230 */
+  margin-bottom: 1rem;
+}
+
+/* Formulários */
+form input[type="text"],
+form input[type="email"],
+form button {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #5a3e36;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(90, 62, 54, 0.2);
+}
+
+/* Botão */
+form button {
+  background-color: #5a3e36;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #4a322d;
+}
+
+/* Tabela de Clientes */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #5a3e36;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+}
+
+/* Ações */
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button.edit {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
